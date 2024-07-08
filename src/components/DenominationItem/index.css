@@ -1,0 +1,22 @@
+/* Write your CSS here*/
+.button-container {
+  width: 48%;
+  margin-bottom: 5px;
+  list-style-type: none;
+}
+.button {
+  border: 1px solid white;
+  border-radius: 8px;
+  list-style-type: none;
+  text-align: center;
+  color: #c4c4c4;
+  margin: 5px;
+  padding: 8px 30px;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #382f5a;
+}

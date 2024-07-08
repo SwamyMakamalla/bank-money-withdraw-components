@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #150b3e;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  width: 60%;
+  max-width: 850px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.name-container {
+  height: 70px;
+  width: 70px;
+  background-color: #c7d2fe;
+  border-radius: 44px;
+  text-align: center;
+  padding-top: 18px;
+  color: #7c3aed;
+  font-weight: 600;
+  font-size: 26px;
+  margin: 15px;
+}
+.name-main-container {
+  padding: 30px;
+  display: flex;
+}
+.heading {
+  color: #d4d2db;
+  font-size: 500;
+  font-family: 'Roboto';
+  font-size: 36px;
+}
+.balance-text {
+  color: #585076;
+  font-weight: 600;
+  font-size: 26px;
+  font-family: 'Roboto';
+}
+.balance-num {
+  color: #d4d2db;
+  font-weight: 500;
+  font-size: 28px;
+  font-family: 'Roboto';
+}
+.rupee-text {
+  color: #585076;
+  font-weight: 500;
+  font-size: 22px;
+  font-family: 'Roboto';
+}
+.balance-text-container {
+  display: flex;
+  justify-content: space-between;
+}
+.withdraw-text {
+  color: #c4c4c4;
+  font-size: 35px;
+  font-family: 'Roboto';
+}
+.list-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
